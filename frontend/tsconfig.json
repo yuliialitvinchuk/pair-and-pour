@@ -1,0 +1,25 @@
+// The TypeScript configuration file for the frontend.
+// Tells TypeScript which files to compile. 
+// ./src/**/* means "every file inside the src folder, at any depth". 
+// Files outside src (like config files in the root) are ignored by the compiler.
+{
+    "include": [
+        "./src/**/*"
+    ],
+    // The rules TypeScript follows when checking and compiling our code.
+    "compilerOptions": {
+        // Enables a bundle of strict type-checking rules all at once. 
+        "strict": true,
+        // Makes import statements work more naturally with older CommonJS packages (the module format used by Node.js). 
+        // Without it, importing some npm packages would require awkward syntax.
+        "esModuleInterop": true,
+        // Tells TypeScript which built-in APIs exist in our environment.
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        // Tells TypeScript how to handle .tsx files (files with HTML-like JSX syntax). 
+        // "react-jsx" is the modern React 17+ transform — it automatically handles JSX without requiring import React from 'react' at the top of every file.
+        "jsx": "react-jsx"
+    }
+}

@@ -1,0 +1,33 @@
+Group Num:
+    Group E
+
+Student Nums:
+    Cormac Logan
+    Yuliia Litvinchuk
+    Sadbh Flynn
+    Xiandeng Fu
+
+Project Idea:
+    We developed a mobile-first web application that helps users discover food and drink pairings.
+
+    Users can browse a curated selection of foods and drinks and see suggested pairings immediately without logging in. Logged-in users can additionally search manually by typing any food or drink name and apply personal preferences to receive filtered results tailored to them.
+
+    The application supports two pairing directions:
+        Food → Drink: user selects or types a food, receives drink recommendations
+        Drink → Food: user selects or types a drink, receives food recommendations
+
+    Logged-in users can customise three preference categories:
+        Dietary restrictions (e.g., vegan, pescatarian, celiac / gluten-free)
+        Alcohol mood notes (e.g., Light & Bubbling, Rich & Warming, Earthy & Traditional)
+        Flavour profiles (e.g., dry, earthy, crisp / refreshing)
+
+    These preferences are applied as filters to personalise pairing results. The system uses rule-based filtering logic against a structured Firestore database rather than AI.
+
+    The application also includes a Contact Us page allowing users to send messages directly to the team.
+
+Technologies used:
+    Frontend: React with TypeScript, React Router
+    Backend: Node.js with Express
+    Database: Google Firestore (NoSQL)
+    Authentication: Firebase Authentication (email/password and Google sign-in)
+    Project Management: Jira, GitLab
