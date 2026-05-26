@@ -75,18 +75,28 @@ Tokens expire after one hour. If tests fail with auth errors, get a fresh token.
 **Project Structure**
 
 Path                              Description
+
 backend/server.js                 Express server, API routes, filtering logic
+
 backend/seed.js                   Script to populate Firestore
+
 backend/export.js                 Script to export Firestore data to JSON
+
 backend/.env.example              Template with blank values — real .env submitted separately
+
 backend/tests/pair.test.js        Jest test suite (38 test cases)
+
 frontend/src/pages/               React page components
+
 frontend/src/components/          Shared components including route guard
+
 frontend/src/context/             AuthContext — global auth state
+
 frontend/src/utils/               preferences.ts localStorage preference 
+
 helpersfrontend/src/api/auth.ts   Firebase auth API layer
 
-**Team **
+**Team**
 
 Name        Role 
 Yuliia Litvinchuk     Frontend
