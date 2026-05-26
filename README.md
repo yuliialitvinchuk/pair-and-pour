@@ -99,7 +99,11 @@ helpersfrontend/src/api/auth.ts   Firebase auth API layer
 **Team**
 
 Name        Role 
+
 Yuliia Litvinchuk     Frontend
+
 Sadbh Flynn      Backend
+
 Cormac Logan      Database
+
 Xiandeng Fu    API integration, system flow, and frontend
