@@ -89,11 +89,7 @@ helpersfrontend/src/api/auth.ts   Firebase auth API layer
 **Team **
 
 Name        Role 
-Yuliia      Frontend
-Sadbh       Backend
-Cormac      Database
-Dennis      API integration, system flow, and frontend
-
-**Screencast**
-
-A screencast demonstrating the full application is available on Moodle alongside this submission.
+Yuliia Litvinchuk     Frontend
+Sadbh Flynn      Backend
+Cormac Logan      Database
+Xiandeng Fu    API integration, system flow, and frontend
